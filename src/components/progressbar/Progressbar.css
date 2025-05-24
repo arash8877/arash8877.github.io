@@ -1,0 +1,39 @@
+.bars-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  
+  .bar {
+    display: flex;
+    height: 0.6rem;
+    background-color: var(--clr--dark-200);
+    border-radius: 5px;
+    margin: 0.6rem 0 2rem 0;
+  }
+  
+  .progress-bar {
+    background-color: var(--clr--orang-100);
+    border-radius: 5px;
+  }
+
+  .bar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  
+  
+  @media (min-width: 805px) {
+      .bars-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+  
+    .bars-wrapper > * {
+        flex: 1 1 40%;
+    }  
+  }

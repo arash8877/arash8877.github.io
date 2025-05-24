@@ -1,0 +1,89 @@
+/* .bars-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  } */
+  
+  /* .bar {
+    display: flex;
+    height: 0.6rem;
+    background-color: var(--clr--dark-200);
+    border-radius: 5px;
+    margin: 0.6rem 0 2rem 0;
+  }
+  
+  .bar .progress-bar {
+    background-color: var(--clr--orang-100);
+    height: 100%;
+    border-radius: 5px;
+    width: 0%;
+  }
+   */
+  /* .html {
+    animation: html 1.3s linear forwards;
+  }
+  .css{
+    animation: css 1.3s linear forwards;
+  }
+  .javaScript {
+    animation: javaScript 1.3s linear forwards;
+  }
+  .react{
+    animation: react 1.3s linear forwards;
+  }
+  .node{
+    animation: node 1.3s linear forwards;
+  }
+  .mysql{
+    animation: mysql 1.3s linear forwards;
+  } */
+/* 
+  @keyframes html {
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes css {
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes javaScript {
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes react {
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes node {
+    100% {
+      width: 40%;
+    }
+  }
+  @keyframes mysql {
+    100% {
+      width: 45%;
+    }
+  }
+ */
+
+
+
+
+  
+  
+  
+  /* @media (min-width: 805px) {
+      .bars-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+  
+    .bars-wrapper > * {
+        flex: 1 1 40%;
+    }  
+  } */

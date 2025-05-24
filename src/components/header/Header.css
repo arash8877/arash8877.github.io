@@ -1,0 +1,152 @@
+.ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ul li {
+    flex-shrink: 1;
+  }
+
+  header {
+    background-color: var(--clr--dark-100);
+    background-image: url("../../../public/assets/arash2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    transition: all 0.7s;
+  }
+  
+  .navbar-scrolled {
+    background-color: var(--clr--dark-300);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .nav-child {
+    padding: 2rem 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-child-scrolled {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-weight: 500;
+  }
+  
+  .nav-links{
+    position: absolute;
+    right: 0;
+    top: 65px;
+    height: 0;
+    background: var(--clr--dark-300);
+    transition: all 0.5s ease;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links .ul {
+  display: block;
+  padding-right: 5px;
+}
+
+.nav-links .ul li {
+  padding: 5px 0px;
+}
+
+.active{
+  height: 9.5rem;
+  padding: 0.5rem;
+}
+
+.nav-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+
+.burger-btn .nav-toggle {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav-mobile .burger-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+header a {
+  color: var(--clr--light-100);
+  text-decoration: none;
+  transition: all ease 0.5s;
+}
+  
+header a:hover {
+  color: var(--clr--orang-100);
+}
+  
+header li:active {
+  transform: scale(0.97);
+}
+
+
+
+.logo-name {
+  font-family: 'Days One', sans-serif;
+  font-size: 1.3rem;
+}
+
+
+#logo:active {
+  transform: scale(0.97);
+}
+
+.burger-lang-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+@media (min-width: 640px) {
+    .burger-btn {
+      display: none;
+    }
+    .nav-links .ul {
+      display: flex;
+      align-items: center; 
+    }
+
+    .nav-links {
+      overflow: unset;
+      position: unset;
+      height: unset;
+      background:transparent;
+      width: unset;
+      text-align: unset;
+    }
+
+    .nav-mobile{
+      display: none;
+    }
+
+}

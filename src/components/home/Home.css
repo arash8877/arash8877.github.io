@@ -1,0 +1,30 @@
+.general-info {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+    }
+    
+    #hi {
+      font-size: calc(1rem + 1.2vw);
+    }
+    
+    #I-am {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+    
+    #developer {
+      font-size: calc(0.6rem + 1.2vw);
+    }
+
+    
+    
+
+@media (min-width: 805px) {
+   .general-info {
+      top: 25%;
+      left: 65%;
+      transform: translate(-50%, 50%);
+     }
+}

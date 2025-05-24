@@ -1,0 +1,114 @@
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --primary: #007bff;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --gray--100: #999999;
+  --gray--200: #6c757d;
+  --gray-300: #6c757d;
+  --dark--300: #343a40;
+  --dark--500: #343a40;
+
+
+  --clr--light-100: #fff;
+  --clr--dark-100: #414952;
+  --clr--dark-200: rgba(255, 255, 255, 0.1);
+  --clr--dark-300: #232931;
+  --clr--dark-800: #000000;
+
+  --clr--orang-100: #ffbd39;
+  --clr--green-100: #a0f669;
+
+  --ff-primary: 'Poppins',Arial, sans-serif;
+  --ff-secondary: system-ui;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+*, *::before, *::after {
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+  background-color: var(--clr--dark-800);
+  font-family: var(--ff-primary);
+  /* margin: 0; */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, p, body {
+  margin: 0;
+}
+
+#body h1, #body h2, #body h3, #body h4 {
+  line-height: 1.5;
+  color: var(--clr--light-100);
+  font-weight: 600;
+}
+
+#body h4 {
+  font-size: calc(0.5rem + 0.6vw);
+}
+
+.wrapper {
+  margin-inline: auto;
+  width: min(90%, 72rem);
+}
+
+
+
+
+/* section {
+  margin: 3rem 0;
+} */
+
+#body img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.section-title {
+  font-size: calc(1rem + 1.1vw);
+  text-align: center;
+}
+
+.orange {
+  color: var(--clr--orang-100);
+}
+
+.section-gap {
+  height: 6rem;
+}
+
+
+
+
+
+
+
+@media (min-width: 640px) {
+  /* .section-gap {
+      height: 8rem;
+  } */
+}
+

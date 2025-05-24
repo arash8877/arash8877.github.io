@@ -1,0 +1,48 @@
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+#arrow {
+    font-size: 10px;
+    font-weight: 400;
+    color: #ffff;
+}
+
+.dropdown-wrapper{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 20px;
+}
+
+.dropdown img {
+    border-radius: 2px !important;
+}
+
+.list {
+    position: absolute;
+    width: 20px;
+    top: 0.8rem;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+@media (min-width: 640px) {
+    .dropdown {
+        margin-left: 2rem;
+    }
+}
+
+
